@@ -21,7 +21,15 @@ The project combines frontend development, Bluetooth communication, and microcon
 
 ## How It Works
 
-Parent wants child's attention -> React app button interaction -> Microcontroller receives instructions through Bluetooth -> Haptic bracelet vibrates -> Child is aware their parent needs their attention
+Parent wants child's attention   
+⬇️  
+React app button interaction  
+⬇️  
+Microcontroller receives instructions through Bluetooth  
+⬇️  
+Haptic bracelet vibrates  
+⬇️  
+Child is aware their parent needs their attention
 
 ## Tech Stack
 
