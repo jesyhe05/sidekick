@@ -1,6 +1,8 @@
-# Sidekick
+# Sidekick 📲
 
 Sidekick is an app and haptic bracelet pairing, designed to help parents quickly get the attention of their child with hearing loss when they are in an environment where hearing aids must be removed.
+
+## Design Process
 
 ## Overview
 
@@ -19,29 +21,32 @@ The project combines frontend development, Bluetooth communication, and microcon
 
 ## How It Works
 
-Parent
+Parent wants child's attention
   |
   v
-React App button interaction
+React app button interaction
   |
   | Bluetooth
   v
-Microcontroller
+Microcontroller receives signal
   |
   v
-Haptic Bracelet Vibrates
+Haptic bracelet vibrates
+  |
+  v
+Child is aware their parent needs their attention
 
 ## Tech Stack
 
 ### Software
 
 - **React** - Frontend application
-- **JavaScript / TypeScript** - Application development
+- **JavaScript** - Application development
 - **Bluetooth** - Wireless communication between the app and wearable
 
 ### Hardware
 
-- **Microcontroller** - Controls the wearable
+- **Microcontroller** - Interprets data sent from the app through Bluetooth into directions for the haptic motor
 - **Arduino** - Microcontroller programming
 - **Haptic vibration motor** - Provides tactile feedback
 
@@ -61,7 +66,7 @@ Haptic Bracelet Vibrates
 - Finish implementing all app frames (currently a mid-fidelity prototype)
 - Add customizable vibration patterns
 - Add battery and connection status to the app
-- Improve the bracelet's form factor and comfort
+- Improve the bracelet's form factor and comfort (including reconfiguring the internal circuit to minimize space required)
 - Conduct additional user testing
 - Add support for multiple wearable devices
 
