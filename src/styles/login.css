@@ -1,0 +1,131 @@
+@font-face {
+  font-family: 'BiscuitGlitch';
+  src: url('../../public/fonts/BiscuitGlitch.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'RobotoBold';
+  src: url('../../public/fonts/Roboto-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'RobotoBlack';
+  src: url('../../public/fonts/Roboto-Black.ttf') format('truetype');
+}
+
+.Green {
+    transform: rotate(-25deg) scale(1.1);
+    position: absolute;
+    left: 95px;
+    top: 70px;
+
+    z-index: 1;
+}
+
+.Teal {
+    transform: rotate(-5deg) scale(1.1);
+    
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    
+    z-index: 2;
+}
+
+.Pink {
+    transform: rotate(-5deg) scale(1.1);
+    
+    position: absolute;
+    left: 0px;
+    bottom: -100px;
+
+    z-index: 3;
+}
+
+.Yellow {
+    transform: rotate(15deg) scale(1.2);
+    
+    position: absolute;
+    left: 20px;
+    bottom: 0px;
+    
+    height: 1000;
+    width: 600;
+    
+    opacity: 75%;
+
+    z-index: 4;
+}
+
+.MainText {
+    position: absolute;
+    left: 42px;
+    top: 325px;
+    
+    color: #6BDBB5;
+    font-family: 'BiscuitGlitch';
+    font-size: 85px;
+
+    z-index: 5;
+}
+
+.Offset {
+    position: absolute;
+    left: 45px;
+    top: 328px;
+    
+    color: transparent;
+    font-family: 'BiscuitGlitch';
+    font-size: 85px;
+    -webkit-text-stroke: 2px #d2efe5;
+
+    z-index: 6;
+}
+
+.LoginButton {
+    position: absolute;
+    left: 67px;
+    top: 555px;
+    
+    background-color: #FFDD51;
+    color: white;
+    border-radius: 25px;
+    border-color: #FFDD51;
+    box-shadow: 5px 4px 7px rgba(101, 101, 101, 0.436);
+
+    width: 255px;
+    height: 77px;
+
+    font-size: 40px;
+    font-family: 'RobotoBold';
+
+    z-index: 7;
+}
+
+.SignUp {
+    position: absolute;
+    left: 145px;
+    top: 650px;
+
+    color: rgba(54, 54, 54, 0.625);
+    background-color: transparent;
+    border-color: transparent;
+
+    width: 100px;
+    height: 10px;
+
+    font-size: 15px;
+    font-family: 'RobotoBlack';
+
+    z-index: 8;
+}
+
+.Logo {
+    transform: scale(-.9, -.9);
+    position: absolute;
+    left: -37px;
+    top: -120px;
+    
+    width: 508px;
+    height: 429px;
+
+    z-index: 9;
+}

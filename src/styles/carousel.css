@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'RobotoBold';
+  src: url('../../public/fonts/Roboto-Bold.ttf') format('truetype');
+}
+
+.carousel {
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 350px;
+    height: 150px;
+
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    gap: 16px;
+
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+
+    cursor: grab;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+    width: max-content;
+}
+
+.carousel button {
+
+    flex: 0 0 auto;
+
+    width: 150px;
+    height: 150px;
+
+    border-radius: 50%;
+    border: none;
+
+    font-family: "BiscuitGlitch";
+    font-size: 25px;
+    color: white;
+
+    scroll-snap-align: center;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.Padding {
+    flex: 0 0 calc(50% - 80px);
+}
+
+.RedButton {
+    background-color: #FF7E73;
+}
+
+.YellowButton {
+    background-color: #FFDD51;
+}
+
+.GreenButton {
+    background-color: #C3F085;
+}

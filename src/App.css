@@ -13,6 +13,20 @@
   }
 }
 
+.app-container {
+  position: relative;
+  width: 393px;
+  height: 852px;
+  background: black;
+  border-radius: 30px;
+  border: 10px solid black;
+
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  align-items: center;
+  overflow: hidden;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +49,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.app {
+  width: 100%;
+  max-width: 390px;     /* iPhone width */
+  height: 100dvh;       /* full screen height */
+  background: white;
+
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 20px;  /* optional, makes it look like a phone */
+}
+
+/* layout like a real app */
+.header {
+  height: 60px;
+  background: #222;
+  color: white;
+}
+
+.content {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.footer {
+  height: 60px;
+  background: #ddd;
 }

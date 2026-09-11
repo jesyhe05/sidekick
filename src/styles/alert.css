@@ -1,0 +1,348 @@
+@font-face {
+  font-family: 'BiscuitGlitch';
+  src: url('../../public/fonts/BiscuitGlitch.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'RobotoBold';
+  src: url('../../public/fonts/Roboto-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'RobotoBlack';
+  src: url('../../public/fonts/Roboto-Black.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'RobotoSemi';
+  src: url('../../public/fonts/Roboto-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'RobotoMedium';
+  src: url('../../public/fonts/Roboto-Medium.ttf') format('truetype');
+}
+
+.GreenAlert {
+    transform: rotate(-25deg) scale(1.7);
+    position: absolute;
+    left: 65px;
+    top: -130px;
+
+    z-index: 1;
+}
+
+.Green2Alert {
+    transform: rotate(-25deg) scale(1.75);
+    position: absolute;
+    left: 65px;
+    bottom: -250px;
+
+    z-index: 2;
+}
+
+
+.TealAlert {
+    transform: rotate(-100deg) scale(1.5);
+    
+    position: absolute;
+    top: -50px;
+    left: 0px;
+
+    opacity: 0.95;
+    
+    z-index: 2;
+}
+
+.PinkAlert {
+    transform: rotate(25deg) scale(2);
+    
+    position: absolute;
+    top: 60px;
+    left: 100px;
+
+    opacity: 0.72;
+
+    z-index: 3;
+}
+
+.YellowAlert {
+    transform: rotate(15deg) scale(1.4);
+    
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    
+    height: 1000;
+    width: 600;
+    
+    opacity: 0.60;
+
+    z-index: 4;
+}
+
+.Yellow2Alert {
+    transform: rotate(90deg) scale(1.1);
+    
+    position: absolute;
+    bottom: 00px;
+    left: -50px;
+    
+    height: 1000;
+    width: 600;
+    
+    opacity: 0.40;
+
+    z-index: 4;
+}
+
+.SidekickAlert {
+    position: absolute;
+    left: 22px;
+    top: 60px;
+    
+    color: #ffffff;
+    font-family: 'BiscuitGlitch';
+    font-size: 25px;
+
+    z-index: 10;
+}
+
+.NameAlert {
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%);
+    top: 125px;
+    
+    color: #ffffff;
+    font-family: 'RobotoMedium';
+    font-size: 20px;
+
+    z-index: 6;
+}
+
+.StatusText {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-115%);
+    top: 155px;
+    
+    color: white;
+    font-family: 'RobotoBlack';
+    font-size: 15px;
+
+    z-index: 6;
+}
+
+.StatusAlert {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-0%);
+    top: 155px;
+    
+    color: #6f6f6f;
+    font-family: 'BiscuitGlitch';
+    font-size: 15px;
+
+    z-index: 6;
+}
+
+.ProfileAlert {
+    position: absolute;
+    top: 120px;
+    left: 50px;
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    background-color: white;
+
+    z-index: 8;
+}
+
+.LogoAlert {
+    position: absolute;
+    top: -25px;
+    left: -55px;
+
+    transform: scale(0.5, 0.5);
+
+    z-index: 9;
+}
+
+.CommandBoxAlert {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+
+    width: 392px;
+    height: 375px;
+    border-radius: 20px;
+    overflow: hidden;
+
+    background-color: white;
+
+    z-index: 10;
+}
+
+.DisconnectAlert {
+    position: absolute;
+    bottom: 75px;
+    left: 85%;
+    transform: translateX(-85%);
+
+    width: 150px;
+    height: 30px;
+    border-radius:5px;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #F1F1F1;
+    border-color: transparent;
+
+    color: #535353;
+    font-family: "RobotoBold";
+    font-size: 15px;
+
+    z-index: 14;
+}
+
+.ReconnectAlert {
+    position: absolute;
+    bottom: 75px;
+    left: 15%;
+    transform: translateX(-15%);
+
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #FFDE54;
+    border-color: transparent;
+
+    color: #535353;
+    font-family: "RobotoBold";
+    font-size: 15px;
+
+    z-index: 14;
+}
+
+.Oval2 {
+    position: absolute;
+    top: 190px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 393px;
+    height: 95px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    background-color: rgb(255, 255, 255);
+
+    justify-content: center;
+    align-items: center;
+
+    z-index: 13;
+}
+
+.connected {
+  color: green;
+}
+
+.disconnected {
+  color: gray;
+}
+
+.NavBar {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+    width: 392px;
+    height: 65px;
+    border-radius: 20px;
+    overflow: hidden;
+
+    background-color: #6BDBB5;
+
+    justify-content: center;
+    align-items: center;
+
+    z-index: 10;
+}
+
+.settings {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.home {
+    position: absolute;
+    top: 50%;
+    right: 45%;
+    transform: translateY(-50%);
+}
+
+.Camera {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 125px;
+    height: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+    border-color: transparent;
+
+    z-index: 15;
+}
+
+.DeviceInfo {
+    position: absolute;
+    top: 223px;
+    left: 47px;
+
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+
+    background-color: rgba(255, 255, 255, 0.5);
+
+    z-index: 10;
+}
+
+.devicePNG {
+    transform: scale(0.80, 0.80);
+    position: absolute;
+    top: -30px;
+    left: -5px;
+
+    z-index: 20;
+    opacity: 1;
+}
+
+.battery {
+    transform: scale(0.80, 0.80);
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+    z-index: 20;
+}

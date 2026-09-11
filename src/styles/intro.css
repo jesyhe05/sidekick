@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'BiscuitGlitch';
+  src: url('../../public/fonts/BiscuitGlitch.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'RobotoBold';
+  src: url('../../public/fonts/Roboto-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'RobotoBlack';
+  src: url('../../public/fonts/Roboto-Black.ttf') format('truetype');
+}
+
+.GreenIntro {
+    transform: rotate(0deg) scale(1.1);
+    position: absolute;
+    left: 5px;
+    top: 100px;
+
+    z-index: 3;
+}
+
+.TealIntro {
+    transform: rotate(-5deg) scale(1.5);
+    
+    position: absolute;
+    left: 0px;
+    bottom: -40px;
+    top: 10;
+    
+    z-index: 5;
+}
+
+.PinkIntro {
+    transform: rotate(-5deg) scale(1.1);
+    
+    position: absolute;
+    left: 0px;
+    bottom: -50px;
+
+    z-index: 6;
+}
+
+.YellowIntro {
+    transform: rotate(15deg) scale(1.2);
+    
+    position: absolute;
+    left: 30px;
+    bottom: 300px;
+    
+    height: 1000;
+    width: 600;
+    
+    opacity: 55%;
+
+    z-index: 4;
+}
+.ProfileIntro {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    background-color: #F1F1F1;
+
+    z-index: 8;
+}
+
+.LogoIntro {
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    transform: translateX(-50%);
+
+    transform: scale(1, 1);
+
+    z-index: 9;
+}
+
+.TextBox {
+    position: absolute;
+    top: 353px;
+    left: 47px;
+
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+
+    background-color: rgba(255, 255, 255, 0.50);
+
+    z-index: 20;
+}
