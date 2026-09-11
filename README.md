@@ -22,13 +22,13 @@ The project combines frontend development, Bluetooth communication, and microcon
 ## How It Works
 
 Parent wants child's attention   
-⬇️  
+          ⬇️  
 React app button interaction  
-⬇️  
+          ⬇️  
 Microcontroller receives instructions through Bluetooth  
-⬇️  
+          ⬇️  
 Haptic bracelet vibrates  
-⬇️  
+          ⬇️  
 Child is aware their parent needs their attention
 
 ## Tech Stack
@@ -65,7 +65,7 @@ Child is aware their parent needs their attention
 - Conduct additional user testing
 - Add support for multiple wearable devices
 
-## What I Learned
+## What I Learned 
 
 Through Sidekick, I gained experience with:
 
