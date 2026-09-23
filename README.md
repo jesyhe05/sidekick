@@ -4,6 +4,8 @@ Sidekick is an app and haptic bracelet pairing, designed to help parents quickly
 
 ## Design Process
 
+Coming soon...
+
 ## Overview
 
 Sidekick pairs a React application with a wearable haptic bracelet. Parents can interact with buttons on the app to send a specific vibration pattern to the bracelet through Bluetooth.
