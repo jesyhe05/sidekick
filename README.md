@@ -2,7 +2,7 @@
 
 Sidekick is an app and haptic bracelet pairing, designed to help parents quickly get the attention of their child with hearing loss when they are in an environment where hearing aids must be removed.
 
-## Design Process
+## Full Design Process
 
 Coming soon...
 
@@ -55,6 +55,8 @@ Child is aware their parent needs their attention
 - Programmed the microcontroller using Arduino
 - Integrated the haptic motor with the microcontroller
 - Tested communication between the application and hardware
+- Conducted user interviews and testing
+- Iterated on user feedback
 - Designed the system around an accessibility-focused use case
 
 
