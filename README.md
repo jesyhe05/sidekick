@@ -55,8 +55,8 @@ Child is aware their parent needs their attention
 - Programmed the microcontroller using Arduino
 - Integrated the haptic motor with the microcontroller
 - Tested communication between the application and hardware
-- Conducted user interviews and testing
-- Iterated on user feedback
+- Executed initial research to understand the problem space, target users, and accessibility needs
+- Iterated on user feedback from interviews and testing
 - Designed the system around an accessibility-focused use case
 
 
